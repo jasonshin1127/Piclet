@@ -1,0 +1,46 @@
+.body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+}
+
+#toolbar {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 400px;
+  height: 1000px;
+  background-color: #202020;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#toolbar * {
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+#toolbar button {
+  background-color: #1565c0;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#canvas {
+  border-style: solid;
+  border-color: #1565c0;
+  border-width: 30px;
+  width: 950px;
+  height: 950px;
+}
